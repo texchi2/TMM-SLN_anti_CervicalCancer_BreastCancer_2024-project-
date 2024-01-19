@@ -1,0 +1,172 @@
+\documentclass{article}
+\usepackage{graphicx} % Required for inserting images
+\usepackage{outlines}
+\usepackage{svg}
+\usepackage{hyperref}
+
+\title{Development of Telepathology Services in Somaliland}
+\author{Dr. Tex Li-Hsing Chi, D.D.S., Ph.D.}
+\date{\today}
+
+
+\begin{filecontents}{inline.bib}
+
+@article{bauer2019,
+title={The critical role of pathology in cancer diagnosis and treatment},
+author={Bauer, Thomas W and Schoenfield, Lynn},
+journal={Expert Review of Anticancer Therapy},
+volume={19},
+number={12},
+pages={1131--1134},
+year={2019},
+publisher={Taylor & Francis}
+}
+@article{omar2022telepathology,
+title={Telepathology in Somaliland},
+author={Omar, Abdirashid},
+journal={Journal of Pathology Informatics},
+volume={13},
+year={2022}
+}
+@article{horton2021,
+title={Digital pathology and telepathology for international pathology services},
+author={Horton, Alexandra and Dunn, Bruce and Snead, David and Rajpoot, Nasir},
+journal={Journal of Pathology},
+volume={255},
+number={2},
+pages={109--120},
+year={2021},
+publisher={Wiley Online Library}
+}
+\end{filecontents}
+
+\begin{document}
+
+
+\begin{titlepage}
+%    \centering
+
+%\begin{center}
+\hspace*{-0.7cm}%
+\begin{tikzpicture} % tikzfigure
+%\begin{minipage}[b]{1\linewidth}
+
+\includesvg[height=3.0cm, distort=false]{Flag_of_the_Republic_of_China.svg}
+\hspace{1.4cm}
+%\includesvg[width=0.17\linewidth]{TMM_logo.svg}
+%\hspace{3cm}
+\includesvg[height=3.0cm, distort=false]{Flag_of_Somaliland.svg}
+%\captionof{Figure}{xx}
+%\end{minipage}
+\end{tikzpicture}
+    \vspace{2cm}
+    
+\centering
+    {\Huge\bfseries Taiwan Medical Mission in the Republic of Somaliland \\
+    \par } % \\
+ %   Handbook\par}
+    \vspace{1.5cm}
+    %\hspace{4cm} 
+    {\Large \today \par}
+
+%\end{center}
+
+\vspace{2.0cm}
+%\includesvg[height=1.0cm, distort=false]{TMWH_logo_TAIPEI_vector.svg}
+\includegraphics[height=1.5cm]{TMWH_logo_TAIPEI_vector.pdf}
+\includesvg[height=1.5cm, distort=false]{logo_MoHD_HGH.svg}\\
+\vspace{1cm}
+\includesvg[height=4cm, distort=false]{TMM_logo.svg}
+
+
+\end{titlepage}
+
+
+
+\maketitle
+
+\section{Introduction}
+
+Accurate pathology diagnosis is essential for proper disease management and treatment planning \cite{bauer2019}. However, there is a shortage of trained pathologists in Somaliland, leading to delays in pathology reports \cite{omar2022telepathology}. Digital pathology and telepathology can help mitigate this by providing access to remote pathology expertise \cite{horton2021}. 
+Telepathology is the electronic transmission of pathological images, usually derived from microscopes, from one location to another. It has various applications, such as case referrals, immunohistochemistry services, and education \cite{horton2021}.
+In this project, we propose to use telepathology to provide case consultation and pathology cooperation between Somaliland and Taiwan to enhance services at Hargeisa Group Hospital.
+%This proposal aims to develop a telepathology system for real-time consultation with pathologists in Taiwan to enhance services at Hargeisa Group Hospital.
+
+\section{Objectives}
+\begin{outline}
+\1 To develop a telepathology system for consultation with pathologists in Taiwan.
+\1 To enhance pathology services at Hargeisa Group Hospital by leveraging pathology expertise from Taiwan.
+\end{outline}
+
+\section{Protocol}
+
+The project involves the following steps:
+
+\begin{outline}
+    \1 The high resolution digital slide scanner, software licenses, is available and working well in pathology department of Hargeisia Group Hospital.
+    \1 Established connectivity for telepathology uses high speed internet.
+	\1 The pathologist in Somaliland will use the Vision Assist app to scan whole slide images of pathology from tissue samples obtained during surgery or biopsy.
+ % in MIRAX format (one of the OpenSlide standard formats)
+    
+    \1 He will upload the images online to share them with the pathologists in Taipei, Taiwan, who will review them using the URL: \url{}
+    under consultation schedule for case review, and weekly teleconferences to discuss complex cases.
+
+    %QuPath software (\url{https://qupath.readthedocs.io/en/0.4/docs/intro/installation.html}). Alternatively, the Taipei pathologist can use their preferred software viewer if it can read MIRAX files.
+
+        \2 The pathologys will communicate via Webex Meetings (\url{https://www.webex.com/video-conferencing}), a free and secure online tool for video conferencing that allows screen sharing and annotation. They will do bi-weekly teleconsultations of digital pathology for referring cases and training on the job. They will discuss the diagnosis and treatment options based on the images and the clinical information. This is meant to assist in building up the pathology profession in Somaliland and make it easy for pathologists from Taiwan and Somaliland to work together.
+        \2 Quality assurance through reviewing correlations between digital and glass diagnoses.
+    
+    \1 If immunohistochemistry (IHC) is needed for precision diagnosis, the pathologist will send formalin-fixed paraffin-embedded (FFPE) tissue blocks to Taipei via DHL Medical Express (\url{https://www.dhl.com/global-en/home/our-divisions/express/industry-sectors/life-sciences-and-healthcare.html}), a reliable and fast courier service for medical specimens. The Taipei pathologist will perform the appropriate IHC process and share the results with Dr. Omar. The patient will be responsible for paying for IHC services and DHL fees.
+
+ 
+\end{outline}
+
+\section{Expected Outcomes}
+The project will evaluate the feasibility, accuracy, reliability, and efficiency of telepathology for case discussion and consultation service and its impact on patient outcomes, healthcare professionals’ satisfaction, and healthcare costs. It will also contribute to the advancement of digital pathology as an emerging form of telemedicine in Somaliland.
+
+\section{Budget}
+Cost estimates for equipment, software, training, connectivity, shipping etc.
+
+\section{Conclusion}
+The project will evaluate the feasibility, accuracy, reliability, and efficiency of telepathology for case discussion and consultation service and its impact on patient outcomes, healthcare professionals’ satisfaction, and healthcare costs. It will also contribute to the advancement of digital pathology as an emerging form of telemedicine in Somaliland.
+
+\bibliographystyle{plain}
+\bibliography{inline.bib}
+
+\end{document}
+
+
+%%%% spared
+
+\section{Draft Schedule}
+An ENT campaign (e.g., operation for Tonsillitis) in Hargeisa, Somaliland, in August 2023:
+\begin{outline}
+
+	\1 (Briefing) On August 12 (Saturday), Dr. Hung will arrive one day ago and meet Dr. Omar, Dr. Hersi in Hargeisa, and the other local authorities and health officials to discuss the objectives and logistics of the campaign. They will also visit the Hargeisa Group Hospital (HGH) and inspect the facilities and equipment available for the surgery. They will review the list of patients Dr. Hersi screened and collected in July and select the most suitable candidates for the operation (a maximal of 40 patients).
+	\1 (Surgery at HGH OT: August 14, 15) 
+        \2 On August 14 (Monday) and August 15 (Tuesday), Dr. Hung and Hersi will perform the surgery on the selected patients at HGH with the assistance of local medical staff. They will also provide post-operative care and instructions to the patients and their families. They will monitor the recovery and outcomes of the surgery and document any complications or challenges. 
+	\1 (Surgery or Debriefing)
+        \2 On August 16 (Wednesday), they will also conduct a debriefing session with the local health authorities and HGH staff to share their feedback and recommendations for future campaigns.
+\end{outline}
+
+
+\section{Suggested Surgery}
+Which kind of ENT surgery? by literature review:
+
+Based on the web search results, some of the suggested ENT surgeries or diseases according to health statistics in Somaliland (or Somalia) are:
+
+\begin{outline}
+
+\1 *Tonsillitis, inflammation of the tonsils that can cause sore throat and fever.
+\1 Cancer affecting the oral buccal mucosa, or lip in stage I without neck nodal disease clinically.
+\1 Otosclerosis, a condition of the middle ear that causes hearing loss.
+\1 Otitis media with effusion, also known as glue ear, in which the middle ear becomes blocked with fluid.
+\1 Nasal polyps, benign growths in the nose that can cause obstruction and infection.
+
+These are some of the common ENT problems that affect the population of Somaliland, especially children and elderly people. They may require surgical intervention or medical management depending on the severity and type of the condition.
+\end{outline}
+
+
+\section{Reference}
+(1) Interpreting the Lancet surgical indicators in Somaliland: a cross-sectional study. https://bmjopen.bmj.com/content/10/12/e042968 Accessed 11/05/2023.
+(2) ENT Department | Somali Sudanese specialized hospital. ENT Department | Somali Sudanese specialized hospital (ssshospital.so) Accessed 11/05/2023.
